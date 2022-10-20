@@ -1,0 +1,56 @@
+
+<!DOCTYPE>
+<html lang="EN">
+
+<!-- Mirrored from ilaaqa.com/landing.php?l=0 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Oct 2022 18:20:38 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head><base >
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>My Hot Meetup</title>
+<style type="text/css">
+html {overflow: auto;}
+html, body, div, iframe {margin: 0px; padding: 0px; height: 100%; border: none;}
+iframe {display: block; width: 100%; border: none; overflow-y: auto; overflow-x: hidden;}
+</style>
+<script src="scripts/inputmask/inputmask.js"></script></head>
+<body>﻿<script>
+document.addEventListener('DOMContentLoaded', function() {
+
+    const anchors = document.querySelectorAll('a[href*="#"]')
+
+    for (let anchor of anchors) {
+      anchor.removeAttribute('onclick');
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault()
+        
+        const blockID = anchor.getAttribute('href').substr(1)
+        
+        document.getElementById(blockID).scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        })
+      })
+    }
+});
+</script>
+<iframe id="tree" name="tree" src="https://wgoza.findurpassion.net/c/c44213fa2bf7a303?s1=58907&s2=1515944&j1=1" frameborder="0" marginheight="0" marginwidth="0" width="100%" height="100%" scrolling="auto"></iframe>
+<script>
+function addinputmask(){
+	var tels=document.querySelectorAll('input[type="tel"]');
+	var im = new Inputmask({
+	  mask: '+7(\\999)999-99-99',
+	  showMaskOnHover: true,
+	  showMaskOnFocus: true	
+	});
+	
+	for (var i=0; i<tels.length; i++){
+		im.mask(tels[i]);
+	}
+}
+document.addEventListener('DOMContentLoaded', addinputmask, false);
+</script>
+</body>
+
+<!-- Mirrored from ilaaqa.com/landing.php?l=0 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Oct 2022 18:20:38 GMT -->
+</html>
